@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
+    }
+  ],
+  "id": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+  "verificationMethod": [
+    {
+      "id": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "aTzkBV0AeumpTHApNavA3cKg-PUvJ3QYVU-4saXifs8"
+      }
+    }
+  ],
+  "authentication": [
+    "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev"
+  ],
+  "assertionMethod": [
+    "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev"
+  ]
+}

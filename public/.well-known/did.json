@@ -9,12 +9,12 @@
       }
     }
   ],
-  "id": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+  "id": "did:web:carrcapital.online",
   "verificationMethod": [
     {
-      "id": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+      "id": "did:web:carrcapital.online#owner",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev",
+      "controller": "did:web:carrcapital.online",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -23,9 +23,9 @@
     }
   ],
   "authentication": [
-    "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev"
+    "did:web:carrcapital.online#owner"
   ],
   "assertionMethod": [
-    "did:key:z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev#z6MkmY4htYaWNuXRZYVHaAVE6MRzcZYU1negoDMjP5XxrRev"
+    "did:web:carrcapital.online#owner"
   ]
 }
